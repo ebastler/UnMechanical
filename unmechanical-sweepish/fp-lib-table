@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ec_finger_touch")(type "KiCad")(uri "${KIPRJMOD}/ec_finger_touch.pretty")(options "")(descr ""))
+)
