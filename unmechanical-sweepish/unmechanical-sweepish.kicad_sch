@@ -1,48 +1,89 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 5cd76e43-93fb-480c-a83c-9a44978f2ade)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 55.88 17.78) (size 33.02 24.13) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 23ec7e89-baef-4d2a-a39c-7983cbe4b3eb)
-    (property "Sheetname" "unmechanical-sweepish-r" (at 55.88 17.0684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "unmechanical-sweepish-r.kicad_sch" (at 55.88 42.4946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "unmechanical-sweepish"
-        (path "/5cd76e43-93fb-480c-a83c-9a44978f2ade" (page "3"))
-      )
-    )
-  )
-
-  (sheet (at 16.51 17.78) (size 33.02 24.13) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid b27ff035-3a59-41fd-b5bc-52321a0da6e9)
-    (property "Sheetname" "unmechanical-sweepish-l" (at 16.51 17.0684 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "unmechanical-sweepish-l.kicad_sch" (at 16.51 42.4946 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "unmechanical-sweepish"
-        (path "/5cd76e43-93fb-480c-a83c-9a44978f2ade" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5cd76e43-93fb-480c-a83c-9a44978f2ade")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 55.88 17.78)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "23ec7e89-baef-4d2a-a39c-7983cbe4b3eb")
+		(property "Sheetname" "unmechanical-sweepish-r"
+			(at 55.88 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "unmechanical-sweepish-r.kicad_sch"
+			(at 55.88 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "unmechanical-sweepish"
+				(path "/5cd76e43-93fb-480c-a83c-9a44978f2ade"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 16.51 17.78)
+		(size 33.02 24.13)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b27ff035-3a59-41fd-b5bc-52321a0da6e9")
+		(property "Sheetname" "unmechanical-sweepish-l"
+			(at 16.51 17.0684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "unmechanical-sweepish-l.kicad_sch"
+			(at 16.51 42.4946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "unmechanical-sweepish"
+				(path "/5cd76e43-93fb-480c-a83c-9a44978f2ade"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
